@@ -1,0 +1,11 @@
+Name of Quantlet: DEDA_class2019_SYSU_Abstract_LDA
+
+Published in:  LN_SDA_2019
+
+Description: Summarize 5 topics from 130 collected abstracts with LDA method
+
+Keywords: LDA, topic modelling, abstract analysis
+
+See also: LDA-DTM_Christmas Songs
+
+Author: FB, FS
