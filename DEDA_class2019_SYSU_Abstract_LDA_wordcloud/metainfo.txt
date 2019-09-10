@@ -1,0 +1,11 @@
+Name of Quantlet: DEDA_class2019_SYSU_Abstract_LDA
+
+Published in:  LN_SDA_2019
+
+Description: Create a word cloud picture to make a short description of 130 abstracts
+
+Keywords: word cloud, topic modelling, abstract analysis
+
+See also: SL_2019_alpha_centauri_pirates_wordcloud
+
+Author: FB, FS
