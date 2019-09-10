@@ -1,4 +1,4 @@
-Name of Quantlet: DEDA_class2019_SYSU_Abstract_LDA
+Name of Quantlet: DEDA_class2019_SYSU_Abstract_LDA_LDAAnalysis
 
 Published in:  LN_SDA_2019
 
