@@ -1,0 +1,9 @@
+Name of Quantlet: How to Draw Peppa Pig
+
+Published in:  LN_SDA_2019
+
+Description: the steps of painting  peppa pig
+
+Keywords: turtle
+
+Author: Rainy
