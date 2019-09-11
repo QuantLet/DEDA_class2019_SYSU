@@ -1,0 +1,9 @@
+Name of Quantlet: Create 2-D random data & change the elephant
+
+Published in:  LN_SDA_2019
+
+Description: change the parameters of elephant & calculate the random vector based on variance-covariance matrix
+
+Keywords: random, fourier
+
+Author: Rainy
