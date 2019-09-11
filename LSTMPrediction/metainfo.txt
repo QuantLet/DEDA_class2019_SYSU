@@ -1,0 +1,9 @@
+Name of Quantlet: LSTMPrediction
+
+Published in:  LN_SDA_2019
+
+Description: the steps of predicting stock price based on LSTM
+
+Keywords: Deep learning, LSTM
+
+Author: Rainy
