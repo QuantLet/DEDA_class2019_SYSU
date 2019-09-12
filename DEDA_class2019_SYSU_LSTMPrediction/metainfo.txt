@@ -1,6 +1,10 @@
 Name of Quantlet: DEDA_class2019_SYSU_LSTMPrediction
 Published in: LN_SDA_2019
-
-Description: Use LSTM to predict stock price.The main steps are:1. import tensorflow 2.transform data format 3.create training data and testing data 4.Use LSTM to fit the model 5. predict
-Keywords: 'LSTM, prediction'
-Author: Rainy
+Description: 'Use LSTM to predict stock price.The main steps are:
+  1. import tensorflow 
+  2.transform data format 
+  3.create training data and testing data 
+  4.Use LSTM to fit the model 
+  5. predict'
+Keywords: 'LSTM, prediction, stock, training, tesnsorflow, plot'
+Author: Rainy Wang

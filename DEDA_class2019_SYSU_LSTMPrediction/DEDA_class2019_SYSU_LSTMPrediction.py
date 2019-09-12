@@ -29,7 +29,9 @@ df['date'] = pd.to_datetime(df.date,format='%Y-%m-%d')
 df.index = df['date']
 
 #plot
+fig = plt.gcf()
 plt.figure(figsize=(16,8))
+fig.set_size_inches(7.0/3,7.0/3)
 plt.plot(df['close'], label='Close Price history')
 plt.show()
 
@@ -96,6 +98,6 @@ valid['Predictions'] = closing_price
 plt.plot(train['close'])
 plt.plot(valid[['close','Predictions']])
 plt.show()
-
+plt.savefig('F:/中山大学/python/Draw/DEDA_class2019_SYSU_LSTMPrediction./Prediction.png', dpi=300)
 
 
