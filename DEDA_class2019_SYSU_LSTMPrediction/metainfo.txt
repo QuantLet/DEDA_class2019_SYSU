@@ -6,5 +6,5 @@ Description: 'Use LSTM to predict stock price.The main steps are:
   3.create training data and testing data 
   4.Use LSTM to fit the model 
   5. predict'
-Keywords: 'LSTM, prediction, stock, training, tesnsorflow, plot'
-Author: Rainy Wang
+Keywords: 'LSTM, prediction, stock, training, tensorflow, plot, KERAS'
+Author: Rainy Wang, WK Härdle, Justin Hellermann
