@@ -89,7 +89,7 @@ class LSTM_Model():
 		plt.plot(train,label='train')
 		plt.plot(test,label='test')
 		plt.plot(preds,label='pred')
-		plt.legend(loc='lower left')
+		plt.legend(loc='center left',bbox_to_anchor = (1,0.87))
 		
 		plt.xticks(ts.index[np.arange(1,ts.shape[0],50)],rotation=45)
 		plt.show()
