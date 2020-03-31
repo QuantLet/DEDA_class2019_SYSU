@@ -84,10 +84,13 @@ class LSTM_Model():
 		test = pd.DataFrame(idx.raw_data.close.iloc[idx.test_start_index:idx.test_end_index]).set_index(idx.raw_data.date.iloc[idx.test_start_index:idx.test_end_index])
 		preds = pd.DataFrame(self.preds).set_index(idx.raw_data.date.iloc[idx.test_start_index+idx.seq_len:idx.test_end_index])
 		
-		plt.plot(ts)
-		plt.plot(train)
-		plt.plot(test)
-		plt.plot(preds)
+
+		plt.plot(ts,label='omitted')
+		plt.plot(train,label='train')
+		plt.plot(test,label='test')
+		plt.plot(preds,label='pred')
+		plt.legend(loc='lower left')
+		
 		plt.xticks(ts.index[np.arange(1,ts.shape[0],50)],rotation=45)
 		plt.show()
 
@@ -108,5 +111,8 @@ lstm.fit(x_data=idx.x_train_data,y_data=idx.y_train_data,epochs=1,batch_size=20)
 lstm.predict(x_data=idx.x_test_data)
 lstm.calc_rmse()
 lstm.plot_results()
+
+
+
 
 
