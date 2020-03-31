@@ -6,6 +6,6 @@ Description: 'Use LSTM to predict stock price.The main steps are:
   3. create training data and testing data 
   4. use LSTM to fit the model 
   5. predict
-  6. plot results (blue: omitted, orange: train set, green: test set, red: prediction)
+  6. plot results (blue: omitted, orange: train set, green: test set, red: prediction)'
 Keywords: 'LSTM, prediction, stock, training, tensorflow, plot, KERAS'
 Author: Rainy Wang, WK Härdle, Justin Hellermann
