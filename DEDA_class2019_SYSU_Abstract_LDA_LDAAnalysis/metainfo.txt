@@ -8,4 +8,4 @@ Keywords: LDA, topic modelling, abstract analysis
 
 See also: LDA-DTM_Christmas Songs
 
-Author: FB, FS
+Author: FB, FS, WKH 20200924
