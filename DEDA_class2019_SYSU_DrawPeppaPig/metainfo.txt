@@ -1,6 +1,13 @@
 Name of Quantlet: DEDA_class2019_SYSU_DrawPeppaPig
+
 Published in: LN_SDA_2019
 
-Description: Use library 'turtle' to draw PeppaPig, the main steps are set the pen size,  control the speed, and fill the shape
-Keywords: 'turtle,  draw, peppapig, fill, pen'
+Description: 'Use python library 'turtle' to draw Peppa Pig. The main steps are to set the pen size, control the speed, and fill the shape.'
+
+Keywords: 'turtle, draw, peppapig, peppa, peppa zhu, pig, fill, pen, python-drawing, pygraph, comic, kids'
+
+See also: ''
+
 Author: Rainy Wang
+
+Submitted: Thu, September 12 2019
