@@ -279,3 +279,9 @@ t.seth(0)
 t.circle(70,20)
 t.circle(10,330)
 t.circle(70,30)
+
+# save 
+ts = t.getscreen()
+ts.getcanvas().postscript(file="Peppa_Pig.eps")
+
+t.mainloop()
