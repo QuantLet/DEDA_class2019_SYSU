@@ -1,22 +1,3 @@
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
-
-## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **DEDA_class2019_SYSU_DrawPeppaPig** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
-
-```yaml
-
-Name of Quantlet: DEDA_class2019_SYSU_DrawPeppaPig
-Published in: LN_SDA_2019
-
-Description: Use library 'turtle' to draw PeppaPig, the main steps are set the pen size,  control the speed, and fill the shape
-Keywords: 'turtle,  draw, peppapig, fill, pen'
-Author: Rainy Wang
-```
-
-![Picture1](PeppaPig.png)
-
-### PYTHON Code
-```python
-
 # coding:utf-8
 import turtle as t
 t.pensize(4) # set the pen size 设置画笔的大小
@@ -299,6 +280,8 @@ t.circle(70,20)
 t.circle(10,330)
 t.circle(70,30)
 
-```
+# save 
+ts = t.getscreen()
+ts.getcanvas().postscript(file="Peppa_Pig.eps")
 
-automatically created on 2019-09-12
+t.mainloop()
