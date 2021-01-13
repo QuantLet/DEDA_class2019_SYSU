@@ -1,8 +1,8 @@
-Name of Quantlet: DEDA_class2019_SYSU_Peppa_Pig
-Published in: LN_SDA_2019
+Name of Quantlet: 'DEDA_class2019_SYSU_Peppa_Pig'
+Published in: 'LN_SDA_2019'
 
 
-Description: This Quantlet provides the code to draw PeppaPig by using the library "turtle". The focus lies on the configuration of the pen size, the drawing speed and the fill of the shape. The project can be used in stimulate children's interest in python. Reference:https://blog.csdn.net/weixin_33701632/article/details/111928743
+Description: 'This Quantlet provides the code to draw PeppaPig by using the library "turtle". The focus lies on the configuration of the pen size, the drawing speed and the fill of the shape. The project can be used in stimulate children's interest in python. Reference:https://blog.csdn.net/weixin_33701632/article/details/111928743'
 Keywords: 'turtle,  draw, peppa pig, fill, pen, picture, fun'
-Author: Rainy Wang 
+Author: 'Rainy Wang' 
 
