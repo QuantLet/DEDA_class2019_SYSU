@@ -6,7 +6,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
-
+from keras import backend as K
 
 class IndexData():
 	def __init__(self):
@@ -68,10 +68,10 @@ class LSTM_Model():
 		self.model.compile(loss='mean_squared_error', optimizer='adam')
 
 	def fit(self,x_data,y_data,epochs,batch_size):
-		self.model.fit(x_data.reshape((-1,idx.seq_len,1)), y_data, epochs=epochs, batch_size=batch_size, verbose=2)
+		self.model.fit(K.cast_to_floatx(x_data.reshape((-1,idx.seq_len,1))), K.cast_to_floatx(y_data), epochs=epochs, batch_size=batch_size, verbose=2)
 
 	def predict(self,x_data):
-		self.preds_scaled = self.model.predict(x_data.reshape((-1,idx.seq_len,1)))
+		self.preds_scaled = self.model.predict(K.cast_to_floatx(x_data.reshape((-1,idx.seq_len,1))))
 
 	def calc_rmse(self):
 		#therefore rescale
