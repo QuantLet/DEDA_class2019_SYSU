@@ -12,7 +12,7 @@ import numpy as np
 sub_dir = os.getcwd() + '/DEDA_class2019_SYSU_Abstract_LDA_wordcloud/'
 cwd_dir = sub_dir if os.path.exists(sub_dir) else os.getcwd()  # the path you save your files
 
-raw_text = open(cwd_dir + 'Abstract_all.txt', 'r', encoding='utf-8').read()
+raw_text = open(cwd_dir + '/Abstract_all.txt', 'r', encoding='utf-8').read() #!!!!!!!!!!!!!!!!!!!!!!!!!!
 raw_text = str(raw_text)
 raw_text = re.sub('\n', ' ', raw_text)
 
@@ -23,7 +23,7 @@ expression = "[^a-zA-Z0-9 ]"
 cleantextCAP = re.sub(expression, '', cleantextprep)  # apply regex
 cleantext = cleantextCAP.lower()  # lower case
 
-with open(cwd_dir + "Output_total.txt", "w")as text_file:
+with open(cwd_dir + "/Output_total.txt", "w")as text_file:
     text_file.write(str(cleantext))
 
 # Read the whole text.
@@ -32,7 +32,7 @@ with open(path.join(cwd_dir, 'Output_total.txt'), 'r', encoding='utf-8', errors=
 
 # Mask
 # xmas_tree_pic = np.array(Image.open(path.join(cwd_dir, "xmas_tree2.png")))
-ql_pic = np.array(Image.open(cwd_dir + 'QuantletsLogo_Ring.jpg'))
+ql_pic = np.array(Image.open(cwd_dir + '/QuantletsLogo_Ring.jpg'))
 
 # Optional additional stopwords
 stopword = set(STOPWORDS)
