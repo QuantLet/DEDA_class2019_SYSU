@@ -37,7 +37,7 @@ abstract_all = list()
 for paper in info_list:
     print(paper[0])
     try:
-        paper_abstract_page = requests.get(abs_link + paper[3], headers={'Connection': 'close'})
+        paper_abstract_page = requests.get(paper[3], headers={'Connection': 'close'})
 
         if paper_abstract_page.status_code == 200:
             # if paper[3][-3:] == 'txt':
