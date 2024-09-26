@@ -64,5 +64,5 @@ for paper in info_list:
         print(paper[3])
         continue
 
-with open(cwd_dir + 'Abstract_all.txt', 'w') as abs_all_f:
+with open(cwd_dir + '/Abstract_all.txt', 'w', encoding='utf-8') as abs_all_f:
     abs_all_f.writelines(abstract_all)
